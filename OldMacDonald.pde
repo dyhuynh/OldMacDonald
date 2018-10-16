@@ -1,7 +1,12 @@
 
-void setup()
+public void setup()
 {
-	//your variable declarations and
-	//System.out.println() statements here
+
+	Cow jeff = new Cow("a cow","moo");
+	Chick bob = new Chick();
+	System.out.println(jeff.getType() + " goes " + jeff.getSound());
+	System.out.println(bob.getType() + " goes " + bob.getSound());
+
+
 }
 
